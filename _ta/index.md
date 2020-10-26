@@ -19,29 +19,39 @@ There are instances where the same syntactical constructions can be analysed dif
 For instance, 
 
 #sent_syn = 15A
+
 #sent_id = 15
+
 and
+
 #sent_syn = 15B
+
 #sent_id = 16
 
 ## Tokenisation and Word Segmentation
 
-* Following most tokenisation patterns, words are delimited by whitespace or punctuation.
-* Multiword tokens are relatively common in Tamil. The following type of constructions have been separated to their synactic units.
+* Words are delimited by whitespace or punctuation.
+* Multiword tokens are common in Tamil; some are multiword syntactical constructions. Further, it is also common that people write words together, without spaces. In this treebank, the following such multiwords are identified, and tokenised to their syntactical units. 
  * the coordinating clitic -உம் / _-um_,  e.g. வேலையும் -> வேலை + உம்
  * noun-verb constructions where verb becomes an aux, e.g. வேலைசெய்தாள் -> வேலை + செய்தாள்
  * verb-verb consturctions where second verb becomes as an aux (or light verb) e.g. வாங்கிக்கொடுத்தான் -> வாங்கி + கொடுத்தான்
 
 ## Part of Speech tagging
 
+
+
 ## Morphological tagging
+
 
 
 ## Dependency tagging
 
 * Tamil uses 14 universal tags ([SCONJ](), [INTJ](), and [SYM]() do not occur in the corpus at present).
-* 7 cases are annotated as morphological features of nouns: nominative, genitive, dative, accusative, instrumental, comitative and sociative, locative. 
-* Tamil is an agglutinating language and other spatiotemporal and/or case-like morphemes may be analyzed as postpositions.
+* Tamil has 9 cases, namely nominative, genitive, dative, accusative, instrumental, comitative/sociative, ablative, locative, and vocative. Except nominative, other cases are marked morphologically. Except nsub, obj, and iobj, others are marked as obl along with the following sub labels, according to the EUD.
+
+
+
+* Tamil is an agglutinating language and other spatiotemporal are analysed as postpositions.
 * Verbs occur as finite forms, participles, infinitives, and gerunds.
 * Auxiliary verbs ([AUX]()) include:
   * போ / _po_ “go” for future tense, follows the infinitive of the main verb
@@ -52,8 +62,6 @@ and
   * உள் / _uḷ_ “within”, இரு / _iru_ “be”, வரு / _varu_ “come”, கொள் / _kòḷ_ “take”, செய் / _cèy_ “do”, விடு / _viṭu_ “let”, வா / _vā_ “come”
   * வேண்டு / _veṇṭu_ “must”
   * முடியும் / _muṭiyum_ “can” (lemma முடி _muṭi_): modal auxiliary, follows the infinitive of the main verb
-
-### Features
 
 ## Syntax
 
