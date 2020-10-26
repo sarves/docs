@@ -47,7 +47,7 @@ and
 ## Dependency tagging
 
 * Tamil uses 14 universal tags ([SCONJ](), [INTJ](), and [SYM]() do not occur in the corpus at present).
-* Tamil has 9 cases, namely nominative, genitive, dative, accusative, instrumental, comitative/sociative, ablative, locative, and vocative. Except nominative, other cases are marked morphologically. Except nsub, obj, and iobj, others are marked as obl along with sub labels, according to the EUD, as shown below.
+* Tamil has 9 cases, namely nominative, genitive, dative, accusative, instrumental, comitative/sociative, ablative, locative, and vocative. Except nominative, other cases are marked morphologically. Except NSUBJ, OBJ, and IOBJ, others are marked as obl along with sub labels, according to the EUD, as shown below.
 
 obl:abl: 
 
@@ -82,20 +82,9 @@ obl:pmod: NST (place) is marked
   * வேண்டு / _veṇṭu_ “must”
   * முடியும் / _muṭiyum_ “can” (lemma முடி _muṭi_): modal auxiliary, follows the infinitive of the main verb
 
-## Syntax
+* Passivisation: Subjects are suppressed when verbs are passivized.
 
-* Core arguments are marked by the morphological cases nominative (subject) and accusative (object).
-  Core arguments are bare noun phrases without postpositions.
-* Subjects have the following characteristics:
-  * Case marking: Subjects occur in nominative case without adpositions.
-  * Passivization: Subjects are suppressed when verbs are passivized.
-* Objects have the following characteristics:
-  * Case marking: Objects occur in accusative case without adpositions.
-  * Passivization: Objects become (non-expletive) subjects when verbs are passivized.
-* Bare nominal arguments (i.e., verb-licensed dependents) in the dative case are not considered core arguments. They are attached as `obl:arg`.
-* Prepositional arguments (i.e., verb-licensed dependents) are not considered core arguments. They are attached as `obl:arg`.
-
-Tamil uses 4 relation subtypes:
+Tamil uses the following relation subtypes:
 * `advmod:emph` for adverbials emphasizing noun phrases
 * `compound:prt` to attach verbal particles to verbs
 * `nsubj:pass` for nominal subjects in passive clauses
