@@ -51,13 +51,11 @@ and
 
 {| class="wikitable"
 |-
-! Header text !! Header text
+| Example || Example ||
 |-
-| Example || Example
+| Example || Example ||
 |-
-| Example || Example
-|-
-| Example || Example
+| Example || Example ||
 |}
 
 ---
