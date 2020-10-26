@@ -53,14 +53,6 @@ and
 obl:tmod: NST (time) is marked 
 obl:pmod: NST (place) is marked 
 obl:abl: 
-obl:soc
-obl:com: marked with animate nouns
-obl:agent: marked in passive construction for the doer of the action
-obl:inst:  marked for nouns that act as instrument of the action 
-obl:loc: marked for nouns of place with locative marker
-obl:ben: marked for nouns that get benifited from the action
-obl:cmpr: marked for nouns of comparison 
-obl:arg: marked for Wh-words in argument position
 ---
 
 * Tamil is an agglutinating language and other spatiotemporal are analysed as postpositions.
