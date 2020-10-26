@@ -49,6 +49,17 @@ and
 * Tamil uses 14 universal tags ([SCONJ](), [INTJ](), and [SYM]() do not occur in the corpus at present).
 * Tamil has 9 cases, namely nominative, genitive, dative, accusative, instrumental, comitative/sociative, ablative, locative, and vocative. Except nominative, other cases are marked morphologically. Except nsub, obj, and iobj, others are marked as obl along with the following sub labels, according to the EUD.
 
+{| class="wikitable"
+|-
+! Header text !! Header text
+|-
+| Example || Example
+|-
+| Example || Example
+|-
+| Example || Example
+|}
+
 ---
 obl:tmod: NST (time) is marked 
 obl:pmod: NST (place) is marked 
