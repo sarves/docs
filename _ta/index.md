@@ -7,11 +7,26 @@ udver: '2'
 # UD for Tamil <span class="flagspan"><img class="flag" src="../../flags/svg/IN.svg" /></span> <span class="flagspan" style="padding-left:1em"><img class="flag" src="../../flags/svg/LK.svg" /></span>
 
 ## Data
-1000 sentences taken from a book "A grammar of modern Tamil" by Thomas Lehmann have been used. These sentences cover most of the common syntactical constructions in Tamil. 
+1000 sentences taken from a book "A grammar of modern Tamil" by Thomas Lehmann (1999) are used to construct this treebank. These sentences cover most of the common syntactical constructions in Tamil.
 
-## Tokenization and Word Segmentation
+## Sentence ids
+### Tamil Nadu / Sri Lanka Tamil
+Although most of thses sentences are in form of high variety, some have vocabularies which are specifically used in Tamil Nadu. Therefore, those sentences are marked additionally with #sent_tn.
 
-* Following most tokenization patterns, words are delimited by whitespace or punctuation.
+### Different syntactical structures
+There are instances where the same syntactical constructions can be analysed differently. Such constructions are marked as #sent_syn, in addition to usualy #sent_id, where the constructions will have the same sent_id followed by an English letter.
+
+For instance, 
+
+#sent_syn = 15A
+#sent_id = 15
+and
+#sent_syn = 15B
+#sent_id = 16
+
+## Tokenisation and Word Segmentation
+
+* Following most tokenisation patterns, words are delimited by whitespace or punctuation.
 * Multiword tokens are relatively common in Tamil. The following type of constructions have been separated to their synactic units.
  * the coordinating clitic -உம் / _-um_,  e.g. வேலையும் -> வேலை + உம்
  * noun-verb constructions where verb becomes an aux, e.g. வேலைசெய்தாள் -> வேலை + செய்தாள்
@@ -42,7 +57,6 @@ udver: '2'
 
 ## Syntax
 
-* Tamil is a verb-final language; both SOV and OSV orders are possible.
 * Core arguments are marked by the morphological cases nominative (subject) and accusative (object).
   Core arguments are bare noun phrases without postpositions.
 * Subjects have the following characteristics:
