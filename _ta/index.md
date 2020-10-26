@@ -47,24 +47,24 @@ and
 ## Dependency tagging
 
 * Tamil uses 14 universal tags ([SCONJ](), [INTJ](), and [SYM]() do not occur in the corpus at present).
-* Tamil has 9 cases, namely nominative, genitive, dative, accusative, instrumental, comitative/sociative, ablative, locative, and vocative. Except nominative, other cases are marked morphologically. Except nsub, obj, and iobj, others are marked as obl along with the following sub labels, according to the EUD.
-
-{| class="wikitable"
-|-
-| Example || Example ||
-|-
-| Example || Example ||
-|-
-| Example || Example ||
-|}
+* Tamil has 9 cases, namely nominative, genitive, dative, accusative, instrumental, comitative/sociative, ablative, locative, and vocative. Except nominative, other cases are marked morphologically. Except nsub, obj, and iobj, others are marked as obl along with sub labels, according to the EUD, as shown below.
 
 ---
+obl:abl: 
+obl:soc:
+obl:com: marked with animate nouns
+obl:agent: marked in passive construction for the doer of the action
+obl:inst:  marked for nouns that act as instrument of the action 
+obl:loc: marked for nouns of place with locative marker
+obl:ben: marked for nouns that get benifited from the action
+obl:cmpr: marked for nouns of comparison 
+obl:arg: marked for Wh-words in argument position
+---
+
+* Spatiotemporal are also analysed as postpositions, and marked with sub labels, as shown below:
 obl:tmod: NST (time) is marked 
 obl:pmod: NST (place) is marked 
-obl:abl: 
----
 
-* Tamil is an agglutinating language and other spatiotemporal are analysed as postpositions.
 * Verbs occur as finite forms, participles, infinitives, and gerunds.
 * Auxiliary verbs ([AUX]()) include:
   * போ / _po_ “go” for future tense, follows the infinitive of the main verb
